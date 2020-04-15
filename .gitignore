@@ -1,0 +1,178 @@
+# ////////////////////////////////
+# BEGIN PROJECT SPECIFIC IGNORE PATHS #
+
+# Dev-Related
+Agora/Config/DefaultEditorPerProjectUserSettings.ini
+Agora/Config/DefaultEditorSettings.ini
+Agora/Content/Developers/*
+
+# Automation-Related
+steam-user.txt
+steam-pw.txt
+
+Automation/builds/*
+Automation/steam/builder/appcache/*
+Automation/steam/builder/dumps/*
+Automation/steam/builder/logs/*
+Automation/steam/builder/shader_cache_temp_dir_gl_32/*
+
+# Paragon Assets
+Agora/Content/ParagonMinions/*
+Agora/Content/ParagonProps/*
+
+Agora/Content/ParagonGadget/*
+!Agora/Content/ParagonGadget/FX\Abilities/Primary/FX/P_Gadget_Bullet_Trail_Smoke_Spline.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Meshes/Gadget_Skeleton.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/blendspaces/Slope_Left.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Turn_Left_90.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Turn_Right_90.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Turn_Left_180.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Turn_Right_180.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Run_Fwd.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Run_Bwd.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Run_Lft.uasset
+!Agora/Content/ParagonGadget/Characters/Heroes/Gadget/Animations/Run_Rt.uasset
+
+Agora/Content/ParagonFengMao/*
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Meshes/FengMao_Skeleton.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Turn_Left_90.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Turn_Right_90.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Turn_Left_180.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Turn_Right_180.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Jog_Fwd_Stop.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Jog_Bwd_Stop.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Run_Bwd.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Run_Fwd.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Run_Right.uasset
+!Agora/Content/ParagonFengMao/Characters/Heroes/FengMao/Animations/Run_Left.uasset
+
+Agora/Content/ParagonSevarog/*
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Meshes/Sevarog_Skeleton.uasset
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Animations/Turn_Lt_90.uasset
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Animations/Turn_Rt_90.uasset
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Animations/Turn_Lt_180.uasset
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Animations/Turn_Rt_180.uasset
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Animations/Jog_Fwd.uasset
+!Agora/Content/ParagonSevarog/Characters/Heroes/Sevarog/Meshes/Sevarog.uasset
+
+Agora/Content/ParagonMurdock/*
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Meshes/Murdock_Skeleton.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Turn_Left_90.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Turn_Right_90.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Turn_Left_180.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Turn_Right_180.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Jog_Fwd_Stop.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Jog_Bwd_Stop.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/AimOffsets/Ultimate_AO_BlendSpace.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Jog_Bwd.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Jog_Fwd.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Jog_Right.uasset
+!Agora/Content/ParagonMurdock/Characters/Heroes/Murdock/Animations/Jog_Left.uasset
+
+Agora/Content/ParagonGideon/*
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Meshes/Gideon_Skeleton.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Turn_Left_90.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Turn_Right_90.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Turn_Left_180.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Turn_Right_180.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Jog_Fwd_Stop.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Jog_Bwd_Stop.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Primary_Attack_A_Medium.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Primary_Attack_B_Medium.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Primary_Attack_C_Medium.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Jog_Fwd.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Jog_Bwd.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Jog_Right.uasset
+!Agora/Content/ParagonGideon/Characters/Heroes/Gideon/Animations/Jog_Left.uasset
+
+# These are also included when you import ParagonProps
+# Don't go searching to add them
+Agora/Content/KiteDemo/*
+Agora/Content/Lighting/*
+Agora/Content/SampleMap/*
+
+
+# END PROJECT SPECIFIC IGNORE PATHS #
+# ////////////////////////////////
+
+
+# ////////////////////////////////
+#BEGIN UE4 DEFAULT IGNORE PATHS #
+
+# Visual Studio 2015 user specific files
+.vs/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# These project files can be generated by the engine
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Precompiled Assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Binary Files
+Binaries/*
+Plugins/*/Binaries/*
+
+# Builds
+Build/*
+
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
+
+# Built data for maps
+*_BuiltData.uasset
+
+# Configuration files generated by the Editor
+Saved/*
+
+# Compiled source files for the engine to use
+Intermediate/*
+Plugins/*/Intermediate/*
+
+# Cache files for the editor to use
+DerivedDataCache/*
+
+# END UE4 DEFAULT IGNORE PATHS #
+# ////////////////////////////////
