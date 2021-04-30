@@ -1,3 +1,5 @@
+// Copyright MIT - Nicholas Arthur
+
 using UnrealBuildTool;
 
 /**
