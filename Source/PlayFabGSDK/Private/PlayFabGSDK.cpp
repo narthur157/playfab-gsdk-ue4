@@ -44,7 +44,7 @@ void LogError(FString message)
 void OnShutdown()
 {
 	LogInfo("Shutting down");
-	FGenericPlatformMisc::RequestExit(true);
+	FGenericPlatformMisc::RequestExit(false);
 }
 
 bool HealthCheck()
