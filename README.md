@@ -1,6 +1,9 @@
 # UE4 GSDK Plugin
 A plugin for PlayFab's GSDK integration in UE4
 
+This plugin includes the GSDK as a static library. I'd recommend using the version in PlayFab's repo as this compiles that GSDK within Unreal, and will be easier to maintain, as this repo will likely not be updated with new GSDK versions.
+https://github.com/PlayFab/gsdk/tree/main/UnrealPlugin
+
 Tested on 4.26.1, should work on other versions as well (tm)
 
 This plugin is designed to enable a simple integration of GSDK in UE4. Just add the plugin to your project and enable it.
