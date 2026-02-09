@@ -1,3 +1,6 @@
+# Discontinued
+See https://github.com/PlayFab/gsdk/tree/main/UnrealPlugin
+
 # UE4 GSDK Plugin
 A plugin for PlayFab's GSDK integration in UE4
 
